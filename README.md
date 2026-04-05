@@ -2,6 +2,9 @@
 
 Agentic Search is an AI-powered pipeline that transforms unstructured web results into a clean, structured, and fully-sourced entity table. From a single topic query, the system autonomously plans searches, infers a schema, scrapes content, and extracts precise attributes with human-in-the-loop expansion capabilities.
 
+<img src="agentic_search_UI.png" width="800" alt="App UI"/>
+
+
 ## 🚀 Key Features
 
 - **Schema-First Extraction**: Unlike naive extractors, this system infers a unified table schema from search snippets *before* scraping. This eliminates column fragmentation (e.g., merging `CEO` and `chief_executive`) across multiple sources.
